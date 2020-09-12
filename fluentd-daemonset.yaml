@@ -22,7 +22,7 @@ spec:
         effect: NoSchedule
       containers:
       - name: fluentd
-        image: ryoungkin/fluentd-kube-daemonset:v1.9-arm32.0.0.20
+        image: ryoungkin/fluentd-kube-daemonset:v1.9-arm32.0.0.41
         env:
           - name:  FLUENT_ELASTICSEARCH_HOST
             value: "10.0.0.223"
